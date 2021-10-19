@@ -1,3 +1,40 @@
+@tailwind base;
+@tailwind components;
+.simple {
+    @apply font-bold py-2 px-4 rounded;
+}
+.primary {
+    @apply bg-blue-500 text-white hover:bg-blue-700;
+}
+.danger {
+    @apply bg-red-500 text-white hover:bg-red-700;
+}
+.secondery {
+    @apply bg-gray-500 text-white;
+}
+.success {
+    @apply bg-green-700 text-white;
+}
+.warning {
+    @apply bg-yellow-700 ;
+}
+.outline-primary {
+    @apply bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded;
+}
+.outline-secondary {
+    @apply bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded;
+}
+.outline-danger {
+    @apply bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded;
+}
+.outline-success {
+    @apply bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded;
+}
+.outline-warning {
+    @apply bg-transparent hover:bg-yellow-500 text-yellow-500 font-semibold hover: py-2 px-4 border border-yellow-500 hover:border-transparent rounded;
+}
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
